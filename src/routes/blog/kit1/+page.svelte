@@ -21,7 +21,7 @@ p.
     what SvelteKit does and how to use it.
 h2  What Is SvelteKit? 
 p.  
-    According to their website, "SvelteKit is a framework for building web applications of 
+    According to their website, “SvelteKit is a framework for building web applications of 
     all sizes, with a beautiful development experience and flexible filesystem-based routing.
 p.
     “Unlike single-page apps, SvelteKit doesn’t compromise on SEO, progressive enhancement 
@@ -54,7 +54,7 @@ p.
     !{cd}npm run dev -- --open!{ecd} <br>
     and your skeleton app will open in 
     a new browser window, at localhost:5173. (A different port may be specified).
-    It doesn’t do much yet&mdash;just says "Welcome to SvelteKit."
+    It doesn’t do much yet&mdash;just says “Welcome to SvelteKit.”
 img.flt_r(src="/VS_Code_1.35_icon.svg.png" alt="Visual Studio Code logo")
 p. 
     Now, of course, you will want to explore and edit the files that have been created. 
@@ -62,7 +62,7 @@ p.
     feel free to use it. But the most popular with Svelte users is
     <a href="https://code.visualstudio.com/">VS Code</a>. 
 p.
-    You will want to install the extension "Svelte for VS Code" and perhaps "Svelte Intellisense."
+    You will want to install the extension “Svelte for VS Code” and perhaps “Svelte Intellisense.”
     It also helps to go to settings, Text Editor, Suggestions, and disable Accept Suggestion on 
     Commit Character. 
 p.
@@ -75,7 +75,7 @@ p.
     The static directory holds static assets such as image files or global CSS files that can be
     included in your app. They can be referenced as if at the top level of your app&mdash;for 
     example, an img.jpg file contained there can be referenced simply as
-    "/img.jpg".
+    “/img.jpg”.
 p.
     The src directory is where you will do essentially all your coding. Initially, it contains 
     an app.html file, which holds the basic html code for your app (but which you mostly won’t 
@@ -166,7 +166,7 @@ p.
 p.
     Voila! We now have a colorful footer on each of our pages. If you replace the Footer
     invocation with just a plain !{cd}&lt;Footer /&gt;!{ecd} statement, you will see that
-    the word "by" goes away on the footer because of the !{cd}#if!{ecd} block.
+    the word “by" goes away on the footer because of the !{cd}#if!{ecd} block.
 p.
     Congratulations! You’ve created a basic SvelteKit app. Of course, we’ve just scratched the surface
     of all there is to SvelteKit. The next post will pick up from here and go a bit deeper,
